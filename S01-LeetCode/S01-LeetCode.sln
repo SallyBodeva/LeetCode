@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-Convert1DArrayInto2DArray", "P01-Convert1DArrayInto2DArray\P01-Convert1DArrayInto2DArray.csproj", "{CA429BF3-D577-4524-8C78-0B6B0DFEB7A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-SumOfDigitsOfStringAfterConvert", "P02-SumOfDigitsOfStringAfterConvert\P02-SumOfDigitsOfStringAfterConvert.csproj", "{57546610-22B4-4447-A476-CC9C729B38D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-SumOfDigitsOfStringAfterConvert", "P02-SumOfDigitsOfStringAfterConvert\P02-SumOfDigitsOfStringAfterConvert.csproj", "{57546610-22B4-4447-A476-CC9C729B38D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-ReplaceTheChalk", "P03-ReplaceTheChalk\P03-ReplaceTheChalk.csproj", "{5BBADCBE-6126-4A71-8F9E-1C667A343A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{57546610-22B4-4447-A476-CC9C729B38D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57546610-22B4-4447-A476-CC9C729B38D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57546610-22B4-4447-A476-CC9C729B38D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBADCBE-6126-4A71-8F9E-1C667A343A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBADCBE-6126-4A71-8F9E-1C667A343A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBADCBE-6126-4A71-8F9E-1C667A343A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBADCBE-6126-4A71-8F9E-1C667A343A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
