@@ -2,47 +2,57 @@
 {
     public static void Main()
     {
-        int[] position = new int[] { 0, 0 };
-        int[] commands = Console.ReadLine().Split(",").Select(int.Parse).ToArray();
 
-        // int[] obstacles = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-        int direction = 0;
-        int maxPoint = 0;
+    }
+}
 
-        for (int i = 0; i < commands.Length; i++)
+public class Solution
+{
+    public int RobotSim(int[] commands, int[][] obstacles)
+    {
+        int[,] directions = new int[,] { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
+
+        var obstacleMap = new Dictionary<(int, int), bool>();
+        foreach (var obstacle in obstacles)
         {
-            int movement = commands[i];
+            obstacleMap[(obstacle[0], obstacle[1])] = true;
+        }
 
-            if (movement > maxPoint)
-            {
-                maxPoint = movement;
-            }
+        int x = 0, y = 0;  
+        int directionIndex = 0;  
+        int maxDistance = 0;  
 
-            if (movement == -1)
+        foreach (var command in commands)
+        {
+            if (command == -1)
             {
-                direction++;
-                continue;
+                directionIndex = (directionIndex + 1) % 4;
             }
-            else if (movement == -2)
+            else if (command == -2)
             {
-                direction--;
-                continue;
-            }
-            if (direction == 2)
-            {
-                position[1] -= movement;
-            }
-            else if (direction == 3)
-            {
-                position[0] -= movement;
+                directionIndex = (directionIndex + 3) % 4;
             }
             else
             {
-                position[direction] += movement;
+                for (int i = 0; i < command; i++)
+                {
+                    int nextX = x + directions[directionIndex, 0];
+                    int nextY = y + directions[directionIndex, 1];
+
+                    if (!obstacleMap.ContainsKey((nextX, nextY)))
+                    {
+                        x = nextX;
+                        y = nextY;
+                        maxDistance = Math.Max(maxDistance, x * x + y * y);
+                    }
+                    else
+                    {
+                        break;  
+                    }
+                }
             }
         }
 
-
-        Console.WriteLine(Math.Pow(maxPoint,2));
+        return maxDistance;
     }
 }
