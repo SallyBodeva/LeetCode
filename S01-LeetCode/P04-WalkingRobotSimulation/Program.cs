@@ -41,6 +41,8 @@
                 position[direction] += movement;
             }
         }
+
+
         Console.WriteLine(Math.Pow(maxPoint,2));
     }
 }
