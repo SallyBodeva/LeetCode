@@ -6,6 +6,22 @@ public class Program
     {
 
     }
+    public static  List<int> ModifiedList(int[] nums, ListNode head)
+    {
+        List<int> list = new List<int>();
+        list.Add(head.val);
+
+        while (true)
+        {
+            if (head.next == null)
+            {
+                break;
+            }
+            list.Add(head.next.val);
+        }
+        list = list.Where(x => !nums.Contains(x)).ToList();
+        return list;
+    }
 }
 
 public class ListNode
