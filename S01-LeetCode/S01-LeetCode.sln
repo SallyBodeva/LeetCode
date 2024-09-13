@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-WalkingRobotSimulation"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-FindMissingObservations", "P05-FindMissingObservations\P05-FindMissingObservations.csproj", "{625A66D3-971C-4CA1-AEF4-9C87BCFD6FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-DeleteFromLinkedList", "P06-DeleteFromLinkedList\P06-DeleteFromLinkedList.csproj", "{E16A0856-8CC7-49E3-B306-D5BBAD1A8866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06-DeleteFromLinkedList", "P06-DeleteFromLinkedList\P06-DeleteFromLinkedList.csproj", "{E16A0856-8CC7-49E3-B306-D5BBAD1A8866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-XorQueries", "P07-XorQueries\P07-XorQueries.csproj", "{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E16A0856-8CC7-49E3-B306-D5BBAD1A8866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16A0856-8CC7-49E3-B306-D5BBAD1A8866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16A0856-8CC7-49E3-B306-D5BBAD1A8866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
