@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-FindMissingObservations
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06-DeleteFromLinkedList", "P06-DeleteFromLinkedList\P06-DeleteFromLinkedList.csproj", "{E16A0856-8CC7-49E3-B306-D5BBAD1A8866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-XorQueries", "P07-XorQueries\P07-XorQueries.csproj", "{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07-XorQueries", "P07-XorQueries\P07-XorQueries.csproj", "{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08-MaximumSubArray", "P08-MaximumSubArray\P08-MaximumSubArray.csproj", "{BB8D00E7-65B0-4367-B9E0-0878D3A5445D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{863C74F6-8207-46D6-A3C4-7E82AB7FCCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8D00E7-65B0-4367-B9E0-0878D3A5445D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8D00E7-65B0-4367-B9E0-0878D3A5445D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8D00E7-65B0-4367-B9E0-0878D3A5445D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8D00E7-65B0-4367-B9E0-0878D3A5445D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
